@@ -1,0 +1,22 @@
+PODS:
+  - Aether (0.1.0):
+    - AppSplitKit
+  - AppSplitKit (0.1.1)
+
+DEPENDENCIES:
+  - Aether (from `../`)
+  - AppSplitKit (from `../../AppSplitKit`)
+
+EXTERNAL SOURCES:
+  Aether:
+    :path: "../"
+  AppSplitKit:
+    :path: "../../AppSplitKit"
+
+SPEC CHECKSUMS:
+  Aether: 8b0a46bb9ff8d97a8bbd0166576497460989190c
+  AppSplitKit: a374917b21b2aca6217518721b4d3ca29d32f15d
+
+PODFILE CHECKSUM: 894e953bdae7652f89eb94f1c5746bb2779d30fd
+
+COCOAPODS: 1.8.3

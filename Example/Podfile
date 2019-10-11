@@ -1,0 +1,16 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'Aether_Example' do
+  pod 'Aether', :path => '../'
+  
+  pod 'AppSplitKit', :path => '../../AppSplitKit'
+  
+
+  target 'Aether_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
